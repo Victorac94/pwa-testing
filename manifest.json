@@ -1,0 +1,14 @@
+{
+  "name": "Progresive Web App training",
+  "short_name": "PWA training",
+  "icons": [{
+    "src": "android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f46f0f",
+  "theme_color": "#f46f0f"
+}
