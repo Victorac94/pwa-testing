@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", event => {
   if (!('serviceWorker' in navigator)) {
     alert("SW not supported!");
-     return console.log("service worker not supported");
+    return console.log("service worker not supported");
   }
     let deferredPrompt;
     let addButton = document.querySelector(".addButton");

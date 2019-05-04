@@ -11,12 +11,11 @@ self.addEventListener("install", event => {
     })
   )
 })
-// Cambiando el service worker
 // Offline support
 self.addEventListener("fetch", event => {
   console.log("Dentro del evento fetch");
-  event.respondWith(caches.match(event.request))
-  .then(cachedResponse => {
-    return cachedResponse || fetch(event.request);
-  });
+  // event.respondWith(caches.match(event.request))
+  // .then(cachedResponse => {
+  //   return cachedResponse || fetch(event.request);
+  // });
 });
